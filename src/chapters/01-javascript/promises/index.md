@@ -31,4 +31,3 @@ function anOtherTimeConsumingOperation() {
 ```
 
 ## Error Handling
-

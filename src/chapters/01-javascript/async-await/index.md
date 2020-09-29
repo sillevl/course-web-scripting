@@ -11,7 +11,6 @@
 })()
 ```
 
-
 ```js
 function timeConsumingOperation() {
   return new Promise( (resolve, reject) => {
@@ -31,4 +30,3 @@ function anOtherTimeConsumingOperation() {
   })
 }
 ```
-

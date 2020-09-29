@@ -1,6 +1,6 @@
 # CommonJS Modules
 
-> Source: https://nodejs.org/docs/latest/api/modules.html
+> Source: <https://nodejs.org/docs/latest/api/modules.html>
 
 In the Node.js module system, each file is treated as a separate module. For example, consider a file named `foo.js`:
 

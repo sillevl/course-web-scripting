@@ -1,6 +1,6 @@
 # JavaScript Classes
 
-> Source: https://www.w3schools.com/js/js_classes.asp
+> Source: <https://www.w3schools.com/js/js_classes.asp>
 
 ES6, also known as ECMAScript2015, introduced classes.
 
@@ -241,5 +241,5 @@ class Car {
 
 const mycar = new Car('Ford')
 mycar.carname = 'Volvo'
-console.log( mycar.carname) 
+console.log( mycar.carname)
 ```

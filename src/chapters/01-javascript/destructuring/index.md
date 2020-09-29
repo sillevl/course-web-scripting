@@ -1,6 +1,6 @@
 # Destructuring
 
-> source: https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Operatoren/Destructuring_assignment
+> source: <https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Operatoren/Destructuring_assignment>
 
 The destructuring assignment syntax is a JavaScript expression that makes it possible to extract data from arrays or objects into distinct variables.
 
@@ -33,7 +33,7 @@ const o = {
 const {p, q} = o;
 
 console.log(p); // 42
-console.log(q); // true 
+console.log(q); // true
 ```
 
 ## Array Destructuring

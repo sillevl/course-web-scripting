@@ -1,8 +1,6 @@
+# Callback hell
 
-
-
-https://www.freecodecamp.org/news/how-to-deal-with-nested-callbacks-and-avoid-callback-hell-1bc8dc4a2012/
-
+<https://www.freecodecamp.org/news/how-to-deal-with-nested-callbacks-and-avoid-callback-hell-1bc8dc4a2012/>
 
 ```js
 // Makes a burger

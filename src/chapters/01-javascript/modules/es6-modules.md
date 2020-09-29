@@ -9,7 +9,6 @@ export default class PressureConverter {...}
 import PressureConverter from './lib/pressure-converter'
 ```
 
-
 ```js
 const PsiBarRatio = 0.0689476
 
@@ -36,7 +35,6 @@ console.log(`1 bar = ${pressure} psi`)
 console.log(`14 psi = ${pressure2} bar`)
 ```
 
-
 ```json
   "babel": {
     "presets": [
@@ -45,7 +43,7 @@ console.log(`14 psi = ${pressure2} bar`)
   }
 ```
 
-```
+```shell
 npx babel-node .\src\index.js
 ```
 
@@ -61,12 +59,11 @@ npm install --save-dev @babel/core @babel/cli
 npm install --save-dev @babel/core @babel/node
 ``` -->
 
+<https://babeljs.io/docs/en/babel-preset-env>
 
-https://babeljs.io/docs/en/babel-preset-env
+<https://babeljs.io/docs/en/babel-cli>
 
-https://babeljs.io/docs/en/babel-cli
-
-https://babeljs.io/docs/en/next/babel-node.html
+<https://babeljs.io/docs/en/next/babel-node.html>
 
 ## Default Exports
 
