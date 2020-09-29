@@ -56,11 +56,14 @@ module.exports = {
         sidebarDepth: 0,    // optional, defaults to 1
         children: [
           '/chapters/01-javascript/nodejs/',
+          '/chapters/01-javascript/let-const-var/',
           '/chapters/01-javascript/arrow-functions/',
+          '/chapters/01-javascript/template-literals/',
           '/chapters/01-javascript/classes/',
           '/chapters/01-javascript/array-and-object-methods/',
           '/chapters/01-javascript/destructuring/',
           '/chapters/01-javascript/modules/',
+          '/chapters/01-javascript/transpiling/',
           '/chapters/01-javascript/callback-hell/',
           '/chapters/01-javascript/promises/',
           '/chapters/01-javascript/async-await/',
