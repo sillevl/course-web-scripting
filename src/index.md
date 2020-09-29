@@ -40,17 +40,20 @@ If you are not able to make the changes for yourself, feel free to [create an is
    2) Arrow functions
    3) Classes
    4) Array and Object methods
-   5) Modules
+   5) Destructuring
+   6) Modules
       1) CommonJS
       2) ES6 Modules
-   6) Callback hell
-   7) Promisses
-   8) Async/Await
+   7) Callback hell
+   8) Promises
+   9) Async/Await
 2) Managing Code
    1) NPM Packages
-   2) Code Style
+   2) Semantic Versioning
+   3) Readme
+   4) Code Style
       1) Linters
-   3) TypeScript
+   5) TypeScript
 3) Building REST API's (backend)
    1) Node Express
    2) Connecting Databases (ORM)

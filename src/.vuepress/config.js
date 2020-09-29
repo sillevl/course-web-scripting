@@ -45,9 +45,48 @@ module.exports = {
       { text: 'Blackboard Collaborate', link: 'https://p.cygnus.cc.kuleuven.be/webapps/collab-ultra/tool/collabultra?course_id=_976829_1&mode=cpview' },
       { text: 'ECTS', link: 'https://p.cygnus.cc.kuleuven.be/webapps/tol-ECTS-bb_bb60/public/display?button_id=338029f4-47f6-4f27-b476-6b642a1b0fb3' }
     ],
-    sidebarDepth: 1,
     repo: 'sillevl/course-webscripting',
-    docsDir: 'docs',
-    docsBranch: 'master'
+    docsDir: 'src',
+    docsBranch: 'master',
+    sidebarDepth: 1,
+    sidebar: [
+      {
+        title: 'JavaScript',   // required
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 0,    // optional, defaults to 1
+        children: [
+          '/chapters/01-javascript/nodejs/',
+          '/chapters/01-javascript/arrow-functions/',
+          '/chapters/01-javascript/classes/',
+          '/chapters/01-javascript/array-and-object-methods/',
+          '/chapters/01-javascript/destructuring/',
+          '/chapters/01-javascript/modules/',
+          '/chapters/01-javascript/callback-hell/',
+          '/chapters/01-javascript/promises/',
+          '/chapters/01-javascript/async-await/',
+        ]
+      },
+      {
+        title: 'Managing Code',   // required
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 0,    // optional, defaults to 1
+        children: [
+        ]
+      },
+      {
+        title: 'Frondend with Vue.js',   // required
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 0,    // optional, defaults to 1
+        children: [
+        ]
+      },
+      {
+        title: 'Backend with Express',   // required
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 0,    // optional, defaults to 1
+        children: [
+        ]
+      },
+    ]
   },
 }
