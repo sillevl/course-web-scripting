@@ -31,7 +31,7 @@ const app = express();
 // sometimes uppercase.
 const DONT_CHANGE_ME_MAN = “I ain’t changing for no one, man.”
 
-// change attempt #1 
+// change attempt #1
 const DONT_CHANGE_ME_MAN = “I told I ain’t changing for no one.”
 // change attempt #2
 var DONT_CHANGE_ME_MAN = “Still not changing, bro.”

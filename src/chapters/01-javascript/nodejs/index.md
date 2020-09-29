@@ -62,14 +62,14 @@ Otherwise, here’s a quick step-by-step explanation of how the JavaScript Event
 
 ![Eventloop](img/eventloop.png)
 
-1. Push` main()` onto the call stack.
+1. Push `main()` onto the call stack.
 2. Push `console.log()` onto the call stack. This then runs right away and gets popped.
 3. Push `setTimeout(2000)` onto the stack. `setTimeout(2000)` is a Node API. When we call it, we register the event-callback pair. The event will wait 2000 milliseconds, then callback is the function.
 4. After registering it in the APIs, `setTimeout(2000)` gets popped from the call stack.
 5. Now the second `setTimeout(0)` gets registered in the same way. We now have two Node APIs waiting to execute.
 6. After waiting for 0 seconds, `setTimeout(0)` gets moved to the callback queue, and the same thing happens with setTimeout(2000).
 7. In the callback queue, the functions wait for the call stack to be empty, because only one statement can execute a time. This is taken care of by the event loop.
-8. The last `console.log()` runs, and the` main()` gets popped from the call stack.
+8. The last `console.log()` runs, and the `main()` gets popped from the call stack.
 9. The event loop sees that the call stack is empty and the callback queue is not empty. So it moves the callbacks (in a first-in-first-out order) to the call stack for execution.
 
 ## NPM

@@ -35,7 +35,7 @@ Example 2:
 ```javascript
 // Before:
 console.log('first text string \n' + 'second text string');
-// => first text string 
+// => first text string
 // => second text string
 
 // After:

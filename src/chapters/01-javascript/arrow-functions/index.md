@@ -1,6 +1,5 @@
 # Arrow Functions
 
-
 > Source: <https://www.freecodecamp.org/news/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26/>
 
 ## So, what the heck is `=>`
@@ -100,7 +99,7 @@ var bunny = {
   showTasks: function() {
     var _this = this;
     this.tasks.forEach(function(task) {
-      alert(_this.name + " wants to " + task); 
+      alert(_this.name + " wants to " + task);
     });
   }
 };
@@ -153,7 +152,7 @@ bunny.showTasks();
 
 While in ES5 `this` referred to the parent of the function, in ES6, arrow functions use lexical scoping — `this` refers to it’s current surrounding scope and no further. Thus the inner function knew to bind to the inner function only, and not to the object’s method or the object itself.
 
-## How to migrate functions from ES5 to ES6.
+## How to migrate functions from ES5 to ES6
 
 ```javascript
 // Before
@@ -228,7 +227,6 @@ You did it! Great job! Simple enough right? Here are a few more examples utilizi
 4. ES6: promises and callbacks.
 
   ```javascript
-  // #4 
   asyncfn1()
     .then(() => asyncfn2())
     .then(() => asyncfn3())
@@ -262,7 +260,7 @@ let func6 = (
   x,
   y
 ) => {
-	return x + y;
+  return x + y;
 }; // Works!
 
 // If an expression is the body of an arrow function, you don’t need braces:
@@ -271,7 +269,7 @@ asyncFunc.then(x => console.log(x));
 // However, statements have to be put in braces:
 asyncFunc.catch(x => { throw x });
 
-// Arrow functions are always anonymous which means you can’t just declare 
+// Arrow functions are always anonymous which means you can’t just declare
 // them as in ES5:
 function squirrelLife() {
   // play with squirrels, burrow for food, etc.
