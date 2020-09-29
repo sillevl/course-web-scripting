@@ -74,6 +74,20 @@ Under construction
 
 Under construction
 
+## Software
+
+In order to follow the examples and create exercises and challenges, the following software should be installed:
+
+* [git](https://git-scm.com/) ([GitHub](https://github.com/) account, [GitHub SSH keys](https://github.com/settings/keys) configured), [posh-git](https://github.com/dahlbyk/posh-git)
+* [Visual Studio Code](https://code.visualstudio.com/) (add context menu integration for files and directories)
+* [Node.js](https://nodejs.org/en/)
+* Browser ([Chrome](https://www.google.com/intl/nl/chrome/), [Firefox](https://www.mozilla.org/nl/firefox/new/), ...)
+
+Optionaly:
+
+* [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)
+* [Windows Subsystem for Linux - WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab)
+
 ## Organisation
 
 This course will be organized in multiple different ways:
