@@ -10,7 +10,7 @@ Welcome to the Webscripting course. This course will give you a better and deepe
 * **Frontend development**: In a web context, there are two main places that can run code. In this chapter we will focus on how to use JavaScript on the client side. We will take a look at the popular Vue library/framework that will speed up development and provides many solutions to very common problems.
 * **Backend development**: Many applications depend on a server that provides logic and processes the data. In this chapter we will take a look at the popular Node Express framework that makes it possible to rapidly build and develop backend applications using REST API's. We will take a look on how a database can be used to store and manage data.
 
-![Frontend vs backend](img/frontend-vs-backend.jpg)
+![Frontend vs backend](./img/frontend-vs-backend.jpg)
 
 ## Lifelong learning
 
