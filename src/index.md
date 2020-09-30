@@ -31,7 +31,7 @@ This course is provided on GitHub as an open source project: [github.com/sillevl
 
 If you want to improve this course simply by correcting _spelling errors_, _improve_ or _add content_, feel free to [contribute](https://github.com/sillevl/course-webscripting#contributing) by creating [pull requests](https://github.com/sillevl/course-webscripting/pulls).
 
-If you are not able to make the changes for yourself, feel free to [create an issue](https://github.com/sillevl/course-webscripting/issues)
+If you are not able to make the changes for yourself, feel free to [create an issue](https://github.com/sillevl/course-webscripting/issues).
 
 ## Chapters
 
