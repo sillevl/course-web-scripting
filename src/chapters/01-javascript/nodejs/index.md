@@ -36,7 +36,7 @@ I/O takes time and hence blocks other functions.
 
 Consider a scenario where we request a backend database for the details of user1 and user2 and then print them on the screen/console. The response to this request takes time, but both of the user data requests can be carried out independently and at the same time.
 
-![Blocking vs non blocking IO](img/blocking-vs-nonblocking-io.png)
+![Blocking vs non blocking IO](./img/blocking-vs-nonblocking-io.png)
 
 ### Blocking I/O
 
