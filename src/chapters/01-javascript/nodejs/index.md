@@ -60,7 +60,7 @@ If you have 26 minutes, watch this excellent video explanation of the Node Event
 
 Otherwise, here’s a quick step-by-step explanation of how the JavaScript Event Loop works.
 
-![Eventloop](img/eventloop.png)
+![Eventloop](./img/eventloop.png)
 
 1. Push `main()` onto the call stack.
 2. Push `console.log()` onto the call stack. This then runs right away and gets popped.
@@ -74,7 +74,7 @@ Otherwise, here’s a quick step-by-step explanation of how the JavaScript Event
 
 ## NPM
 
-![NPM](img/npm.png)
+![NPM](./img/npm.png)
 
 These are libraries built by the awesome community which will solve most of your generic problems. npm (Node package manager) has packages you can use in your apps to make your development faster and efficient.
 
