@@ -106,7 +106,7 @@ V8 can run standalone or can be embedded into any C++ application. It has hooks 
 
 This essentially lets you add features to JavaScript by embedding V8 into your C++ code so that your C++ code understands more than what the ECMAScript standard otherwise specifies.
 
-Edit: As brought to my attention by Greg Bulmash, there are many different JavaScript runtime engines apart from V8 by Chrome like SpiderMonkey by Mozilla, Chakra by Microsoft, etc. Details of the same can be found on this page.
+There are many different JavaScript runtime engines apart from V8 by Chrome like SpiderMonkey by Mozilla, Chakra by Microsoft, etc.
 
 ## Events
 
@@ -119,7 +119,7 @@ Something that has happened in our app that we can respond to. There are two typ
 
 We have to do this, don’t we?
 
-Make a file app.js and add the following to it.
+Make a file `app.js` and add the following to it.
 
 ```javascript
 console.log("Hello World!");

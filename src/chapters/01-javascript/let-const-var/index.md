@@ -25,21 +25,21 @@ Examples:
 
 ```javascript
 // sometimes used as lowercase as when setting up your server.
-const express = require(‘express’);
+const express = require('express');
 const app = express();
 
 // sometimes uppercase.
-const DONT_CHANGE_ME_MAN = “I ain’t changing for no one, man.”
+const DONT_CHANGE_ME_MAN = "I ain't changing for no one, man."
 
 // change attempt #1
-const DONT_CHANGE_ME_MAN = “I told I ain’t changing for no one.”
+const DONT_CHANGE_ME_MAN = "I told I ain’t changing for no one."
 // change attempt #2
-var DONT_CHANGE_ME_MAN = “Still not changing, bro.”
+var DONT_CHANGE_ME_MAN = "Still not changing, bro."
 // change attempt #3
-DONT_CHANGE_ME_MAN = “Haha, nice try, still not happening.”
+DONT_CHANGE_ME_MAN = "Haha, nice try, still not happening."
 
 // same error for all 3 attempts, const value stays the same:
-Uncaught TypeError: Identifier ‘const DONT_CHANGE_ME_MAN’ has already been declared.
+Uncaught TypeError: Identifier 'const DONT_CHANGE_ME_MAN' has already been declared.
 
 // DONT_CHANGE_ME_MAN still results in “I ain’t changing for no one, man.”
 ```
@@ -85,13 +85,13 @@ if(bunny) {
 console.log(bunny)// "eat carrot"
 ```
 
-Do you see the difference? It’s all about scope. With var, it has access to it’s parent/outer scope and thus can change the value inside the if statement. Unlike let which is block-scoped and can only be altered within the current scope it’s in.
+Do you see the difference? It’s all about scope. With `var`, it has access to it’s parent/outer scope and thus can change the value inside the if statement. Unlike let which is block-scoped and can only be altered within the current scope it’s in.
 
 let is super straight-forward. It’s like a person who speaks straight to your face and tells you exactly what they need right then and there while var does this as well but may occasionally reply with unexpected answers — due to hoisting and access to outer scope variables. Depending on the situation either one may be in your favor.
 
 Another great example on the benefits of let:
 
-Say you want to create a game board of 30 divs and each one has their own value. If you were to do this with var, the i index would be overwritten for every iteration — every single div would have the value of 30! Yikes!
+Say you want to create a game board of 30 divs and each one has their own value. If you were to do this with `var`, the `i` index would be overwritten for every iteration — every single div would have the value of 30! Yikes!
 
 On the other hand, with let, every div has its own value, as its own div scope is maintained for each iteration! See the difference:
 
