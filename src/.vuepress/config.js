@@ -78,14 +78,19 @@ module.exports = {
         ]
       },
       {
-        title: 'Frondend with Vue.js',   // required
+        title: 'Backend with Express',   // required
         collapsable: true, // optional, defaults to true
         sidebarDepth: 0,    // optional, defaults to 1
         children: [
+          '/chapters/03-rest-api/rest/',
+          '/chapters/03-rest-api/express/',
+          '/chapters/03-rest-api/fetch-api/',
+          '/chapters/03-rest-api/dot-env/',
+          '/chapters/03-rest-api/database/',
         ]
       },
       {
-        title: 'Backend with Express',   // required
+        title: 'Frondend with Vue.js',   // required
         collapsable: true, // optional, defaults to true
         sidebarDepth: 0,    // optional, defaults to 1
         children: [

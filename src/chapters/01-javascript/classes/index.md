@@ -27,11 +27,6 @@ class Car {
 Now you can create objects using the Car class:
 
 ```js
-class Car {
-  constructor(brand) {
-    this.carname = brand
-  }
-}
 const mycar = new Car('Ford')
 ```
 
