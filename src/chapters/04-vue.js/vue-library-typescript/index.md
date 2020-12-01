@@ -88,7 +88,7 @@ It can be handy to define some NPM scripts to help you with some common tasks. A
     ...
     "build": "webpack",
     "watch": "webpack --watch",
-    "dev": "webpack server --port 8080"
+    "dev": "webpack serve --port 8080"
 },
 ```
 
