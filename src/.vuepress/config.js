@@ -94,6 +94,8 @@ module.exports = {
         collapsable: true, // optional, defaults to true
         sidebarDepth: 0,    // optional, defaults to 1
         children: [
+          '/chapters/04-vue.js/introduction/',
+          '/chapters/04-vue.js/vue-library-typescript/'
         ]
       },
     ]
