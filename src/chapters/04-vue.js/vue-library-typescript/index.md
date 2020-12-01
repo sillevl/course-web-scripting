@@ -1,4 +1,4 @@
-# Using Vue as a library with TypeScript
+# Vue as library with TypeScript
 
 In this tutorial we will take a look at what is needed to get started with Vue 3 and TypeScript. In this tutorial Vue will be used as a library just to keep it simple to get started. Keep in mind that to create real applications it is better to use the Vue CLI tool to create the boilerplate code for your project. This is just a minimal setup to get you started for some small examples or experiments.
 
