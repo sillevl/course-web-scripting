@@ -136,17 +136,11 @@ If you want to learn more about what webpack is, how and why to use it, checkout
 
 Now the project is fully setup to get working. The only thing to do now is to add the source files. Because the project is ment to run in the browser, we will need an `index.html` file and some TypeScript files.
 
-### HTML documen
+### HTML document
 
 The HTML document is a simple document containing a link to the `bundle.js` file. Note that the `defer` attribute will keep it from running straight away. It is important that de document is fully loaded first.
 
 To get a Vue app running, a container element is needed. In this case a `div` element with an id `app` is used. The element contains a declarative rendering statement using the curly braces `{{ hello }}`. Thats all that is needed for this Vue example.
-
-script element: dist/bundle.js
-
-add container with id for Vue to live in
-
-add Vue  Declarative Rendering
 
 ```html
 <!DOCTYPE html>
