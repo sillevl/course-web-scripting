@@ -92,7 +92,7 @@ It can be handy to define some NPM scripts to help you with some common tasks. A
 },
 ```
 
-For webpack to know what an how to create the bundle, we need some configuration. This configuration lives inside a `webpack.config.json` file at the root of the project.
+For webpack to know what an how to create the bundle, we need some configuration. This configuration lives inside a `webpack.config.js` file at the root of the project.
 
 ```javascript
 const path = require('path');
