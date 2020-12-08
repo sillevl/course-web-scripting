@@ -1,12 +1,14 @@
 # Axios
 
-<https://github.com/axios/axios>
+Axios website: [github.com/axios/axios](https://github.com/axios/axios)
 
 <YoutubeVideo video-id="qM4G1Ai2ZpE">
 
+<!-- -->
+
 ## Vue.js example project using Axios
 
-<https://github.com/vives-webscripting-2020/vue-frontend-example>
+[https://github.com/vives-webscripting-2020/vue-frontend-example](Vue frontend example (GitHub))
 
 ## Using axios to consume a REST API
 
