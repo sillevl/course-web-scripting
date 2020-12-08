@@ -2,7 +2,7 @@
 
 Axios website: [github.com/axios/axios](https://github.com/axios/axios)
 
-<YoutubeVideo video-id="qM4G1Ai2ZpE">
+<YoutubeVideo video-id="qM4G1Ai2ZpE" />
 
 <!-- -->
 
