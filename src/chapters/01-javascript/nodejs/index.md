@@ -125,6 +125,6 @@ Make a file `app.js` and add the following to it.
 console.log("Hello World!");
 ```
 
-Open your node terminal, change the directory to the folder where the file is saved and `run node app.js`.
+Open your node terminal, change the directory to the folder where the file is saved and run `node app.js`.
 
 Bam — you’ve just written Hello World in Node.js.
