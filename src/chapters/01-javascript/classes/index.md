@@ -73,7 +73,7 @@ class Car {
 
 const mycar = new Car('Ford')
 
-coonsole.log( mycar.present('Hello') )
+console.log( mycar.present('Hello') )
 ```
 
 ## Static Methods
